@@ -1,0 +1,40 @@
+La empresa BreazeInTheMoon requiere un sistema de reservas de hotel, desarrollado con una arquitectura de microservicios, con una interfaz 
+moderna, intuitiva y accesible que permita a diferentes tipos de usuarios gestionar sus actividades de forma eficiente. El sistema debe incluir 
+un panel de administración donde los hoteles puedan gestionar su información, añadir habitaciones con detalles como precio, capacidad, tipo y 
+disponibilidad, y consultar las reservas realizadas por los clientes. Esta interfaz debe permitir aceptar o rechazar reservas con un solo clic y 
+enviar notificaciones automáticas a los clientes.
+Para los clientes, la interfaz debe ofrecer un buscador avanzado que permita filtrar hoteles por ubicación, precio, tipo de habitación y 
+disponibilidad. El proceso de reserva debe completarse en pocos pasos, con una confirmación visual clara y la opción de consultar el estado de 
+todas las reservas, tanto pasadas como actuales. Además, los clientes deben recibir notificaciones sobre la confirmación o el rechazo de sus 
+reservas, tanto dentro del sistema como por correo electrónico. La solución debe incluir un frontend desarrollado en Angular, lo que garantiza 
+una experiencia de usuario fluida y estructurada, mientras que el backend debe desarrollarse en NestJS para garantizar un diseño modular y 
+escalable. La seguridad en la gestión de datos y la autenticación debe ser una prioridad, garantizando que solo los usuarios con los permisos 
+adecuados puedan acceder a funcionalidades específicas.
+Para mejorar la experiencia y la funcionalidad, el sistema debe incluir un módulo de reseñas y valoraciones, donde los clientes puedan dejar 
+comentarios y calificar su estancia tras completar una reserva. Las valoraciones deben reflejarse en el perfil del hotel, lo que permite a otros 
+usuarios tomar decisiones de reserva informadas.
+Además, la gestión de la disponibilidad debe gestionarse en tiempo real, garantizando que, cuando un usuario reserva una habitación, esta se 
+bloquee temporalmente hasta que se complete el proceso. Esto evitará sobreventas o conflictos por reservas simultáneas.
+El sistema también debe ofrecer un módulo de historial de reservas e informes. Los propietarios de hoteles deben poder acceder a estadísticas 
+sobre la ocupación de las habitaciones, consultar las reservas realizadas durante un período específico y generar informes básicos de actividad. 
+Para mejorar la interacción y reducir la dependencia de las actualizaciones manuales, se debe implementar un sistema de notificaciones en tiempo 
+real que permita a los propietarios de hoteles recibir alertas instantáneas cuando un cliente realiza una reserva.
+Todo el sistema debe estar dockerizado, lo que permite una implementación fluida en diferentes entornos. Además, Swagger debe estar integrado para 
+proporcionar una documentación clara de la API y facilitar las pruebas.
+
+Documentación de Ingeniería de Software
+El desarrollo del sistema debe ir acompañado de toda la documentación de ingeniería de software necesaria, incluyendo:
+• Especificación de Requisitos de Software (SRS): Detalla los requisitos funcionales y no funcionales del sistema.
+• Diagramas UML para representar la arquitectura y el comportamiento del sistema, incluyendo:
+o Diagrama de Clases, que representa la estructura del sistema y las relaciones entre los componentes.
+o Diagrama de Secuencia, que describe el flujo de interacción entre servicios y usuarios.
+o Diagrama de Componentes, que detalla la organización de los módulos del sistema y sus interacciones.
+• Modelo Entidad-Relación (ERM) para definir la estructura de la base de datos. 
+• Manual técnico, que explica la arquitectura del sistema, la estructura del código y la configuración para entornos de desarrollo y producción.
+• Manual del usuario, que proporciona una guía detallada sobre cómo usar el sistema para cada tipo de usuario, incluyendo ejemplos prácticos y 
+capturas de pantalla cuando sea necesario.
+• Pruebas unitarias para garantizar la calidad y el correcto funcionamiento del código, validando cada componente de forma aislada con una 
+cobertura igual o superior al 85 %.
+
+Toda la documentación debe seguir las mejores prácticas y los estándares de la industria, garantizando la claridad y precisión de la información 
+presentada.
